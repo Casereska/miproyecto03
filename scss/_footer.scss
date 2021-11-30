@@ -1,0 +1,30 @@
+footer{
+    width: auto;
+    height: 120px;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    flex-direction: column;
+        nav{
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                font-size: 15px;
+                color: #ff0;
+                margin: auto;
+                padding: 10px;
+                text-decoration: none;
+                border-bottom: 2px solid #E16D65;
+                transition: all .5s ease;
+                & :hover{
+                    color: #E16D65;
+                    transform: scale(1.1);
+                }
+            
+            }
+        }
+}
+
