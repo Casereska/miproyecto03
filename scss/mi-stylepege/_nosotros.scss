@@ -1,0 +1,110 @@
+@mixin carrusel($height, $width, $display) {
+    height: $height;
+    width: $width;
+    display: $display;
+    
+}
+
+@mixin cajas($height, $width, $display, $direction, $justify) {
+    height: $height;
+    width: $width;
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $justify;
+
+}
+
+@mixin caja-contenido($text-aling, $line-height){
+    text-align: $text-aling;
+    line-height: $line-height;
+    }
+
+
+%boton{
+    margin: auto;
+    height: auto;
+}
+/*  --------------------------------mi pagina nosotros-------------------------------------------*/
+//--------------bootstraps carrusel----------
+.conteiner{
+        height: 100vh;
+        display: grid;
+        background-position: center center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 1vh 2vh   ;
+        grid-template-rows: 100%;
+        justify-items: center;
+        align-items: center;
+
+        .row{
+            @extend %boton;
+            
+                .col-12{
+                    @extend %boton;
+
+                    text-justify: auto;
+                    display: grid;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    margin:auto
+                
+                    
+                }
+
+        }
+
+        
+
+}
+
+/*---------------------------seccionnes porque nosotros --------------------------*/
+
+    .porque{
+        @include cajas (auto, 100hv, flex, column, center);
+        @include caja-contenido (center, 25px);
+        
+        article{
+            @include cajas( 50vh, 50%, flex, column, center); 
+
+            h3{
+                font-size: 25px;
+                display: flex;
+                flex-direction: row;
+                p {
+                    font-size: 10px;
+
+    
+                }
+            }
+            
+        }
+
+    }
+
+    .manejo{
+        @include cajas (auto, 100hv, flex, column, center);
+        @include caja-contenido (center, 25px);
+        
+        article{
+            @include cajas( 50vh, 50%, flex, column, center); 
+            @extend %boton;
+            h3{
+                font-size: 25px;
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                @extend %boton;
+                p {
+                    font-size: 10px;
+                    flex-direction: row;
+                    justify-content: start;
+
+    
+                }
+            }
+            
+        }
+
+    }

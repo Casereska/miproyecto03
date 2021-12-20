@@ -1,36 +1,46 @@
 header{
     /* encabezado*/
     width: 100%;
-    height: 250px;
+    height: 150px;
     display: flex;
     align-items: center;
     background-color: #101414;
     position: fixed;
     padding: 10px;
                 /* logo de mi pag*/
-                .logo{
+                .mi-logo{
                 width: 120px;
                 height: auto;
+                margin-right: 550px;
                         /* mi nav*/
                         &nav{
-                        display: flex;
-                        justify-content: space-between;
-                        text-align: center;
-                        align-items: center;
-                        padding: 10px;
+
+                            padding: 10px;
+                            border: 5px;
+                            margin-left: 10vh;
+                            display: flex;
+                            justify-content:left;
+                            text-align: left;
                         
                         
-                    }
-            }
+                          
+                                        
+                        }
+                }
+               
+
+                    
+
 }    
 
 /* link de navegacion*/
 a{
-    font-size: 15px;
+    font-size: 25px;
     color: #ff0;
     margin: auto;
     padding: 10px;
     text-decoration: none;
+    text-shadow: -2px -2px 1px #E16D60, 2px 2px 1px #E16D60, -2px 2px 1px #E16D60, 2px -2px 1px #E16D60;
     border-bottom: 2px solid #E16D65;
     transition: all .5s ease;
     & :hover{
@@ -38,16 +48,9 @@ a{
         transform: scale(1.1);
     }
 
-}
+    
 
-.hugo{
-    width: 100%;
-    height: 580px;
-    margin-top: 0px;
-    background-image: url(../imagenes/auto3.jpg);
-    background-size:contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    z-index: 9999;;
-}
+    }
+
+
+

@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.boton-contenedor p .boton-d-ma, .boton-contenedor {
+  height: 100vh;
+  width: auto;
+  display: grid;
+}
+
+.manejo article h3, .manejo article, .conteiner .row .col-12, .conteiner .row, .boton-4, .boton-3, .boton-2, .boton-1, .boton-contenedor p .boton-d-ma {
+  margin: auto;
+  height: auto;
+}
+
+.boton-4, .boton-3, .boton-2, .boton-1, .boton-contenedor p .boton-d-ma, .boton-contenedor {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: auto;
+  justify-items: start;
+}
+
+header {
+  /* encabezado*/
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  background-color: #101414;
+  position: fixed;
+  padding: 10px;
+  /* logo de mi pag*/
+}
+header .mi-logo {
+  width: 120px;
+  height: auto;
+  margin-right: 550px;
+  /* mi nav*/
+}
+header .mi-logonav {
+  padding: 10px;
+  border: 5px;
+  margin-left: 10vh;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+
+/* link de navegacion*/
+a {
+  font-size: 25px;
+  color: #ff0;
+  margin: auto;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: -2px -2px 1px #E16D60, 2px 2px 1px #E16D60, -2px 2px 1px #E16D60, 2px -2px 1px #E16D60;
+  border-bottom: 2px solid #E16D65;
+  transition: all 0.5s ease;
+}
+a :hover {
+  color: #E16D65;
+  transform: scale(1.1);
+}
+
+.hugo {
+  width: 100%;
+  height: 580px;
+  margin-top: 0px;
+  background-image: url(../imagenes/auto3.jpg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 9999;
+}
+
+/* ----------------main inicio--------*/
+.contenedor-caja {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contenedor-caja .caja1 {
+  height: 100vh;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  transition: all 0.7s ease;
+}
+.contenedor-caja .caja1.caja1:hover {
+  z-index: 2;
+  background-color: #e16e66;
+  transform: scale(1.1);
+}
+
+.caja2 {
+  height: 100vh;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 15px;
+  transition: all 0.7s ease;
+}
+.caja2.caja2:hover {
+  z-index: 2;
+  background-color: #e16e66;
+  transform: scale(1.1);
+}
+
+.caja3 {
+  height: 100vh;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 15px;
+  transition: all 0.7s ease;
+}
+.caja3.caja3:hover {
+  z-index: 2;
+  background-color: #e16e66;
+  transform: scale(1.1);
+}
+
+/*----------formulario -------------------------*/
+form {
+  color: #000000;
+  margin: auto;
+  width: max-content;
+  border-color: 5px solid #000000;
+}
+form li {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+/*----------------------mapa/ubicacion----------*/
+.mapa {
+  height: 50vh;
+  width: auto;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  justify-items: stretch;
+  margin: 30vh;
+  padding: 10vh;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+.boton-contenedor p .boton-d-ma, .boton-contenedor {
+  height: 80vh;
+  width: 100%;
+  display: grid;
+}
+
+.manejo article h3, .manejo article, .conteiner .row .col-12, .conteiner .row, .boton-4, .boton-3, .boton-2, .boton-1, .boton-contenedor p .boton-d-ma {
+  margin: auto;
+  height: auto;
+}
+
+.boton-4, .boton-3, .boton-2, .boton-1, .boton-contenedor p .boton-d-ma, .boton-contenedor {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 2fr;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  gap: 2px 2px;
+}
+
+.boton-contenedor {
+  margin: 50px 10px;
+  padding: 20px;
+}
+.boton-contenedor p {
+  font-size: 15px;
+  margin: 10vh 15vh 10vh 15vh;
+  display: grid;
+  bottom: 15vh;
+}
+.boton-contenedor p .boton-d-ma .boton-grid1 {
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.boton-1 {
+  display: grid;
+  background-color: aqua;
+  border: black 3px solid;
+}
+
+.boton-2 {
+  display: grid;
+  background-color: chartreuse;
+  border: black 3px solid;
+}
+
+.boton-3 {
+  display: grid;
+  background-color: cornflowerblue;
+  border: black 3px solid;
+}
+
+.boton-4 {
+  display: grid;
+  background-color: crimson;
+  border: black 3px solid;
+}
+
+.contenedor-grid-1 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 2px 0px;
+  grid-auto-flow: row;
+}
+
+.manejo article h3, .manejo article, .conteiner .row .col-12, .conteiner .row, .boton-contenedor p .boton-d-ma, .boton-1, .boton-2, .boton-3, .boton-4 {
+  margin: auto;
+  height: auto;
+}
+
+/*  --------------------------------mi pagina nosotros-------------------------------------------*/
+.conteiner {
+  height: 100vh;
+  display: grid;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1vh 2vh;
+  grid-template-rows: 100%;
+  justify-items: center;
+  align-items: center;
+}
+.conteiner .row .col-12 {
+  text-justify: auto;
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+/*---------------------------seccionnes porque nosotros --------------------------*/
+.porque {
+  height: auto;
+  width: 100hv;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+}
+.porque article {
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.porque article h3 {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.porque article h3 p {
+  font-size: 10px;
+}
+
+.manejo {
+  height: auto;
+  width: 100hv;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+}
+.manejo article {
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.manejo article h3 {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.manejo article h3 p {
+  font-size: 10px;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.pie {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  flex-direction: column;
+}
+.pie nav {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-size: 15px;
+  color: #ff0;
+  margin: auto;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #E16D65;
+  transition: all 0.5s ease;
+}
+a :hover {
+  color: #E16D65;
+  transform: scale(1.1);
+}
+
+img {
+  width: 35px;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px 15px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

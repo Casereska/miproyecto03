@@ -1,0 +1,27 @@
+@mixin cajas($height, $width, $display, $direction, $justify) {
+    height: $height;
+    width: $width;
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+@mixin caja-curso ($backg-color, $margin, $padding  ) { 
+    
+    background-color: $backg-color;
+    margin: $margin;
+    padding: $padding;
+
+}
+@mixin caja-contenido($text-aling, $line-height){
+text-align: $text-aling;
+line-height: $line-height;
+}
+
+
+
+@mixin carrusel($height, $width, $display) {
+    height: $height;
+    width: $width;
+    display: $display;
+}

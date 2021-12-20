@@ -1,0 +1,25 @@
+%material{
+    height: 100vh;
+    width: auto;
+    display: grid;
+}
+
+%boton{
+    margin: auto;
+    height: auto;
+}
+
+%fila-columna{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: auto;
+    justify-items: start;
+}
+
+%grid-video{
+    .grid-1 { grid-area: 1 / 1 / 2 / 2; }
+  
+    .grid-2 { grid-area: 2 / 2 / 3 / 3; }
+  
+    .grid-3 { grid-area: 3 / 3 / 4 / 4; }
+}
